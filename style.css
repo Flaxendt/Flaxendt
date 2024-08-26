@@ -1,0 +1,85 @@
+.nav{
+    height:50px;
+    background:blue;
+}
+.home{
+    background:url("Animex.jpeg");
+    background-size:cover;
+    height:100vh;
+}
+.nav div{
+    display:inline-black;
+    position: absolute;
+    left:0;
+    padding:15px;
+    font-size:15px;
+    color: white;
+}
+.nav ul{
+    position: absolute;
+    right:5px;
+}
+.nav ul li{
+    display:inline-block;
+}
+.nav ul li a{
+    color:white;
+    padding:5px;
+}
+.home .text-container{
+display:flex;
+justify-content:center;
+text-align: center;
+align-items: center;
+height:90vh;
+color:white;
+}
+.about .about-content{
+    margin:150px auto 0 auto;
+    width:300px;
+}
+.about .about-content h1{
+    text-align:center;
+    color:red;
+}
+.about .about-content p{
+    text-align: justify;
+}
+.service .service-content{
+    margin:80px auto 0 auto;
+    text-align:center;
+}
+.service .service-content h1{
+    color:red;
+    border-style:solid;
+    border-color:black;
+    border-size:20px;
+    padding:15px;
+}
+.service-content .card-container ul li{
+    list-style:none;
+    display:inline-block;
+    margin:20px;
+    width:300px;
+}
+.service-content .card-container ul li p{
+    text-align:justify;
+    color:green
+}
+.contact .contact-content{
+    margin:80px auto 0 auto;
+    text-align:center;
+}
+.contact .contact-content h1{
+    color:red;
+    border-style:solid;
+    border-color:black;
+    border-size:30px;
+    padding:15px;
+}
+.contact .contact-content .address-holder p{
+    color:green;
+}
+.contact .contact-content .address-holder h4{
+    color:blue;
+}
